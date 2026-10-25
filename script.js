@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const filter = btn.getAttribute('data-filter');
 
-            projectCards.forEach(card => {
+            document.querySelectorAll('#projectGrid .project-card').forEach(card => {
                 if (filter === 'all' || card.getAttribute('data-category') === filter) {
                     card.classList.remove('hidden');
                     card.style.animation = 'fadeInUp 0.4s ease forwards';
@@ -165,12 +165,19 @@ document.addEventListener('DOMContentLoaded', () => {
         'converse': 'Converse',
         'miniso': 'Miniso',
         'vans': 'Vans',
-        'by-aura': 'By Aura'
+        'by-aura': 'By Aura',
+        'gedung-serbaguna-sdn-5-pecatu': 'Gedung Serbaguna SDN 5 Pecatu',
+        'laundry-store-jakarta': 'Laundry Store @ Jakarta',
+        'rent-office': 'Rent Office',
+        'ruko-hotel-mambal': 'Ruko and Hotel @ Mambal',
+        'rumah-bekasi-timur': 'Rumah @ Bekasi Timur',
+        'rumah-galaxy': 'Rumah @ Galaxy',
+        'rumah-type-250': 'Rumah Type 250 (Mockup Real Estate)'
     };
 
     function getImagesForTenant(tenant, category) {
         const images = [];
-        const prefix = category === 'fb' ? 'fb' : 'retail';
+        const prefix = category === 'fb' ? 'fb' : category === 'design' ? 'design' : 'retail';
         let i = 1;
         // Try to find images up to 5 per tenant
         while (i <= 5) {
@@ -193,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Get all images for this tenant
         currentLightboxImages = [];
-        const prefix = category === 'fb' ? 'fb' : 'retail';
+        const prefix = category === 'fb' ? 'fb' : category === 'design' ? 'design' : 'retail';
 
         // Use the card's main image + try to find additional images
         const mainImg = card.querySelector('img');

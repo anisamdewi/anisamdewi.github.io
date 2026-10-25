@@ -34,16 +34,9 @@ Architectural Engineering graduate with 5+ years of experience in retail constru
 ├── styles.css              # Dark theme, responsive styles
 ├── script.js               # Language toggle, lightbox, nav, animations
 ├── images/
-│   ├── fb/                 # F&B tenant photos (21 images)
-│   │   ├── maison-tatsuya-1.jpg
-│   │   ├── maxx-coffee-1.jpg
-│   │   ├── steak-21-1.jpg
-│   │   └── ...
-│   └── retail/             # Retail tenant photos (19 images)
-│       ├── birkenstock-1.jpg
-│       ├── levis-1.jpg
-│       ├── adidas-1.jpg
-│       └── ...
+│   ├── fb/                 # F&B tenant photos
+│   ├── retail/             # Retail tenant photos
+│   └── design/             # Architectural design project photos
 ├── Anisa Mutiara Dewi_Resume.pdf
 ├── Portfolio_Anisa Mutiara Dewi_Fit-Out AEON Mall Deltamas.pdf
 └── README.md
@@ -56,6 +49,9 @@ Maison Tatsuya, Maxx Coffee, Steak 21, OPPO, Tous Les Jours, Pho Ba Ba, Pancious
 
 ### Retail (9 tenants)
 Birkenstock, Levi's, Guardian, Boots, Adidas, Havaianas, Converse, Miniso, Vans, By Aura
+
+### Design Projects (7)
+Gedung Serbaguna SDN 5 Pecatu, Laundry Store @ Jakarta, Rent Office, Ruko and Hotel @ Mambal, Rumah @ Bekasi Timur, Rumah @ Galaxy, Rumah Type 250 (Mockup Real Estate)
 
 ## Local Development
 
