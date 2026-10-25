@@ -34,6 +34,8 @@ body {
     border-bottom: 1px solid var(--border);
     padding-bottom: 3px;
     margin-bottom: 6px;
+    break-after: avoid;
+    page-break-after: avoid;
 }
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .grid-4 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
@@ -53,9 +55,10 @@ body {
 }
 .project-card img {
     width: 100%;
-    height: 150px;
-    object-fit: cover;
+    height: 200px;
+    object-fit: contain;
     display: block;
+    background: #fff;
 }
 .project-card .name {
     font-size: 8.5pt;
@@ -80,7 +83,7 @@ body {
 @media print {
     body { font-size: 9.5pt; }
     .section { margin-bottom: 6px; }
-    .project-card img { height: 120px; }
+    .project-card img { height: 160px; }
     a { color: inherit; text-decoration: none; }
 }
 @page { size: A4 landscape; margin: 10mm; }
