@@ -31,6 +31,9 @@ Architectural Engineering graduate with 5+ years of experience in retail constru
 
 ```
 ├── index.html              # Single-page portfolio
+├── portfolio-attachment.html # Compact version for PDF export/attachment
+├── attachment.css          # Print-friendly light theme
+├── Portfolio_Anisa Mutiara Dewi_Attachment.pdf
 ├── styles.css              # Dark theme, responsive styles
 ├── script.js               # Language toggle, lightbox, nav, animations
 ├── images/
