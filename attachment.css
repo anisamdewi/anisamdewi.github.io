@@ -38,7 +38,7 @@ body {
     page-break-after: avoid;
 }
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-.grid-4 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.grid-4 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
 .card {
     background: var(--card);
     border: 1px solid var(--border);
@@ -55,7 +55,7 @@ body {
 }
 .project-card img {
     width: 100%;
-    height: 200px;
+    height: 260px;
     object-fit: contain;
     display: block;
     background: #fff;
@@ -83,7 +83,7 @@ body {
 @media print {
     body { font-size: 9.5pt; }
     .section { margin-bottom: 6px; }
-    .project-card img { height: 160px; }
+    .project-card img { height: 220px; }
     a { color: inherit; text-decoration: none; }
 }
 @page { size: A4 landscape; margin: 10mm; }
